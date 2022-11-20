@@ -1,0 +1,172 @@
+@media (max-width: 959.98px) {
+    body {
+        background-color: rgb(170, 49, 49);
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+        
+    .header, .nav, .hyperlinks, .table, .form, .footer {
+        background-color: rgb(59, 75, 150);
+        padding: 0.5em;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0.5em auto;
+        padding-bottom: 0.3em;
+    }
+    #bheader {
+        margin: 0 2em;
+    }
+
+    .nav {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .navlink{
+        margin: 0.1em auto;
+        padding: 0 5px;
+        width: fit-content;
+        height: 32px;
+        background-color:rgb(168, 167, 167);
+        border: 1px solid black;
+    }
+
+    .navlink a{
+        vertical-align: middle;
+        text-decoration: none;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+    }
+
+    li {
+        margin-bottom: 0.6em;
+        color: brown;
+    }
+
+    #main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    label {
+        font-size: large;
+    }
+
+    input, select, textarea {
+        font-size:20px;
+        size: 10em;
+        padding: 5px 10px 5px 10px;
+        margin-bottom: 1    em;
+    }
+
+    /*input {
+        width:  200px;
+        height: 30px;
+        padding: 5px 10px 5px 10px;
+        border:1px solid #999;
+        font-size:32px;
+        font-family: Tahoma;
+    }*/
+
+
+    #main .table {
+        order: 1;
+    }
+
+    #main .form {
+        order: 0;
+    }
+
+    b {
+        font-size: 28px;
+    }
+
+    table {
+        background-color: rgb(84, 42, 163);
+        border: 1px solid;
+        border-collapse: collapse;
+    }
+
+    td{
+        border: 1px solid rgb(0, 0, 0);
+        padding: 6px 10px 6px 10px;
+        text-align: center;
+    }
+
+    tr:nth-child(odd) {
+        background-color: rgb(243, 217, 217);
+    }
+}
+
+@media (min-width: 960px) {
+    body {
+        background-color:rgb(80, 80, 211);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+
+    .header, .nav, .hyperlinks, .table, .form, .footer {
+        background-color: rgb(184, 44, 44);
+        padding: 0.2em;
+    }
+
+    li{
+        color:blue
+    }
+    .nav {
+        flex-direction: row;
+        display: flex;
+    }
+
+    .navlink{
+        margin: 0.1em auto;
+        padding: 0 5px;
+        width: fit-content;
+        height: 32px;
+        background-color:rgb(168, 167, 167);
+        border: 1px solid rgb(0, 0, 0);
+    }
+
+    .navlink a{
+        vertical-align: middle;
+        text-decoration: none;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+    }
+
+    .container {
+        width: 960px;
+        margin: 0.5em auto;
+        padding-bottom: 0.1em;
+    }
+
+    #bheader {
+        margin: 0 2em;
+    }
+
+    .nav a{
+        margin-right: 1em;
+    }
+
+    b {
+        font-size: 36px;
+    }
+
+    table {
+        background-color: white;
+        border: 1px solid;
+        border-collapse: collapse;
+    }
+
+    td{
+        border: 1px solid gray;
+        padding: 3px 5px 3px 5px;
+        text-align: center;
+    }
+
+    tr:nth-child(odd) {
+        background-color: rgb(243, 217, 217);
+    }
+}
